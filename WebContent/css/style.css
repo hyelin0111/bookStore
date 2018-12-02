@@ -1,0 +1,346 @@
+@CHARSET "UTF-8";
+
+
+
+/* body { margin-top:15px;} */
+/* div, section, header, aside, footer {padding:10px;} */
+
+/********** 전체컨테이너 **********/
+div#container1   {width:1000px; margin:0 auto;}
+
+*:focus{
+outline: none;
+}
+/********** header **********/
+#img-title1{
+   font-family: 'Gugi', cursive;
+   margin-left:10px;
+   height:80px ;
+   width:160px;
+   position:relative;
+   display: inline;
+   cursor:pointer;
+}
+header {background-color:white; height:130px; position:relative; padding:10px 0 0 0;}
+
+/* 검색  */
+header div#search-container1{
+   position:relative;
+   width: 650px;
+   margin: 5px auto;
+   margin-bottom: 15px;
+   
+}
+#searchType1_1{
+   width:75px;
+   height:30px;
+   padding-left: 2px;
+   font-size: 12px;
+   border: 1px solid black;
+   border-radius: 6px;
+   margin-top: 5px;
+   margin-right: 5px;
+   cursor:pointer;
+}
+#search-book1_1{
+   width:500px;
+   height:30px;
+   border-radius: 6px;
+      border: 1px solid black;
+      padding-right: 0px;
+      display: inline;
+}
+#search1_1{
+   display: inline;
+   border: 1px;
+   width:40px;
+   height: 32px;
+   border: 1px solid black;
+   border-radius: 6px;
+   background: #303343;
+   color: white;
+   cursor:pointer;
+}
+
+
+/* 로그인컨테이너 */
+header div.login-container1{
+   width:200px; 
+   position:absolute; 
+   right:0px; 
+   top:10px;
+   }
+/* #login-t1{
+   border:1px solid white;
+} */
+
+/* 로그인테이블 */
+#loginFrm1 table{empty-cells:hide;}
+#loginFrm1 input[type=text]{
+   padding-left: 2px;
+   width:120px; 
+   heght: 18px;
+   border-radius: 6px;
+   border: 1px solid black;
+}
+#loginFrm1 input[type=password]{
+   padding-left: 2px;
+   width:120px; 
+   heght: 18px;
+   border-radius: 6px;
+   border: 1px solid black;
+}
+#loginFrm1 input[type=submit]{
+   width:60px; 
+   height:40px; 
+   color:white; 
+   background:#303343;
+   position:absolute;
+   top:4px;
+   right:10px;
+   border-radius: 10px;
+   border:1px solid black;
+   cursor:pointer;
+}
+#loginFrm1 input[type=submit]:hover{
+   border:1px solid black;
+   background: white;
+   color: #303343;
+}
+#saveId1{
+   font-size: 12px;
+   vertical-align: middle;
+}
+/*로그인 성공후*/
+#logged-container1{
+   margin-left:30px;
+}
+#logged1{
+   display: inline-block;
+   height:80px; 
+}
+#user1{
+   width:55px;
+   height:55px;
+   display: inline-block;
+   cursor:pointer;
+}
+
+#bubble1{
+   margin-top:5px;
+   display:none;
+   vertical-align: top;
+   
+}
+#mpage1{
+   width:80px;
+   border: 1px solid black;
+   background: #303343;
+   color: white;
+   border-radius: 6px;
+   margin-bottom: 3px;
+   cursor:pointer;
+}
+#mpage1:hover{
+   border:1px solid black;
+   background: white;
+   color: #303343;
+}
+#basket1{
+   width:80px;
+   border: 1px solid black;
+   background: #303343;
+   color: white;
+   border-radius: 6px;
+   margin-bottom: 3px;
+   cursor:pointer;
+}
+#basket1:hover{
+   border:1px solid black;
+   background: white;
+   color: #303343;
+}
+#log-out1{
+   width:80px;
+   border: 1px solid black;
+   background: #303343;
+   color: white;
+   border-radius: 6px;
+   margin-bottom: 3px;
+   cursor:pointer;
+}
+#log-out1:hover{
+   border:1px solid black;
+   background: white;
+   color: #303343;
+}
+#seller1Enroll1{
+   width:80px;
+   border: 1px solid black;
+   background: #303343;
+   color: white;
+   border-radius: 6px;
+   margin-bottom: 3px;
+   cursor:pointer;
+}
+#seller1Enroll1:hover{
+   border:1px solid black;
+   background: white;
+   color: #303343;
+}
+
+
+#logged-name1{
+   font-size: 15px;
+}
+div.login-container1 table#logged-in1{border-spacing:10px;}
+div.login-container1 table#logged-in1 input[type=button]{border-radius:3px;}
+
+#join1{
+   border: 1px solid black;
+   background: #303343;
+   color: white;
+   border-radius: 6px;
+   cursor:pointer;
+}
+#join1:hover{
+   border:1px solid black;
+   background: white;
+   color: #303343;
+}
+
+
+/* 메인메뉴 */
+header nav.fix-nav1 {
+   background:#303343; 
+   width:100%; 
+   /* float: left; */
+   /* margin-top:40px; */
+}
+ul.main-nav1 {
+   display:table;
+   padding:0px; /*ul태그가 가진 기본padding초기화*/
+   margin:auto;
+}
+ul.main-nav1 li{
+   list-style-type:none;
+   wdith:8em;
+   height:2.5em;
+   float:left;
+   text-align:center;
+   border-left:1px #9DB589 solid;
+   background-color:#303343;
+}
+ul.main-nav1 li:last-of-type{border-right:1px #CEE8CE solid;}
+ul.main-nav1 li a.menut1{
+   display:block;
+   padding:.5em;
+   text-decoration:none; 
+   color:white;
+}
+ul.main-nav1 li:hover{background:#EBEED5;}
+ul.main-nav1 li:hover>a{color:#11152d;}
+
+/* 고정될 검색창 */
+.jbFixed {
+   position: fixed;
+   width:960px;
+   top: 0px;
+   margin: 0;
+   background-color: #303343;
+   z-index:1000;
+}
+header div.fixed-search1{
+   margin: auto;   
+   background-color: #303343;
+   height: 45px;
+}
+div.fixed-search1 h2{
+   margin-left: 10px;
+   margin-right: 20px;
+}
+#slogo1{
+   margin-left: 10px;
+   margin-right: 5px;
+   margin-top: 3px;
+}
+#searchType2_1{
+   width:100px;
+   height:30px;
+   padding-left: 10px;
+   font-size: 14px;
+   border: 1px solid white;
+   border-radius: 6px;
+   margin-right: 5px;
+}
+#search-book2_1{
+   width:660px;
+   height:30px;
+   border-radius: 6px;
+    border: 1px solid white;
+    padding-right: 0px;
+}
+#search2_1{
+   display: inline;
+   border: 1px;
+   height: 32px;
+   border: 1px solid black;
+   border-radius: 6px;
+   background: white;
+   color: #303343;
+   width: 40px;
+}
+/* 도서검색  */
+.dropdown_5columns {
+    margin:4px auto;
+    position:absolute;
+    left:-999em;
+    text-align:center;
+    border:2px dashed #303343;
+    border-top:1px solid white;
+    z-index:100;
+    background:white;
+    width:998px;  
+    border-radius: 0px 0px 10px 10px;
+}
+.main-nav1 li:hover .dropdown_5columns {
+    left:0px;
+}
+
+
+.col_1,
+.col_2,
+.col_3,
+.col_4,
+.col_5 {
+    display:inline;
+    float: left;
+    position: relative;
+    margin-left: 5px;
+    width:130px; margin-left:60px; padding-bottom:15px;
+}
+.col_1 p,
+.col_2 p,
+.col_3 p,
+.col_4 p,
+.col_5 p{
+   padding-bottom:5px;
+} 
+
+a.ca1{
+   text-decoration: none;
+   color: black;
+}
+.col_6 {width:960px; padding:10px;} 
+.cate1{
+   cursor:pointer;
+}
+
+/********** content **********/
+section#content1   { float:left; width:1000px; min-height:800px; margin-top: 70px; margin-bottom: 30px;}
+
+
+
+
+/********** footer **********/
+footer   { background-color:#303343; clear:both; height:55px; text-align:center;padding-top:40px;}
